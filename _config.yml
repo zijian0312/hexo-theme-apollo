@@ -1,0 +1,31 @@
+menu:
+    Blog: /
+    Archive: /archives/
+    Tag: /tags/
+    About: /about/
+    Rss: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+ga: UA-65933410-1
+
+# Copyright Infomation
+startyear: 2016
+
+# Font CDN
+#true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor
+#false: use useso fonts api instead of google's, great response speed for chinese visitor
+googlefonts: true
+
+contact:
+  youxiang: mailto:zzj1213@qq.com
+  github: https://github.com/zijian0312
+  weibo: https://weibo.com/u/2264379680?refer_flag=1001030101_

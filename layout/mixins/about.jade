@@ -1,0 +1,13 @@
+mixin contact()
+  - var icons = ['youxiang', 'github', 'weibo']
+  .contact
+    h2 Contact me
+    ul      
+      each icon in icons
+        li
+          a(class='iconfont icon-' + icon, href=theme.contact[icon], target='_blank')
+
+  .donate
+    h2 Donate
+    p 如果觉得我的博客对你有帮助，可以扫一扫请我喝杯咖啡。
+    img(src="http://p5tv038sm.bkt.clouddn.com/blog/180516/CFDimI3GBb.jpg?imageslim", alt="捐赠")
